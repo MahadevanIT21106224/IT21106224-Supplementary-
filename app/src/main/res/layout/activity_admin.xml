@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD39B"
+    tools:context=".Admin">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="714dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btnA_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_interface"
+            android:backgroundTint="#6C6868"
+            android:text="Logout"
+            app:iconTint="#B3B0B0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Welcome Admin"
+            android:textColor="#020202"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_interface"
+            android:backgroundTint="#6C6868"
+            android:text="Insert Category"
+            app:iconTint="#B3B0B0" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_interface"
+            android:backgroundTint="#6C6868"
+            android:text="Add Product"
+            app:iconTint="#B3B0B0" />
+
+        <Button
+            android:id="@+id/btnA_see"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_interface"
+            android:backgroundTint="#6C6868"
+            android:text="See product we entered"
+            app:iconTint="#B3B0B0" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

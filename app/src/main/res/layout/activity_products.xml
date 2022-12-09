@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD39B"
+    tools:context=".Products">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="714dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <EditText
+            android:id="@+id/txtProduct_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:hint="Enter Product ID"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtProduct_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:hint="Enter Product Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spProduct"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="10dp"
+            android:textDirection="firstStrongRtl" />
+
+        <EditText
+            android:id="@+id/txtProduct_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:hint="Enter Product price"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtProduct_Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:hint="Enter Product Quantity"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnProduct_Insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_interface"
+            android:backgroundTint="#6C6868"
+            android:text="Insert Product" />
+    </LinearLayout>
+
+</RelativeLayout>
